@@ -28,8 +28,8 @@
 }
 
 .content {
-	display: flex;
-	  height: 100%;
-	  /*background-color: black;*/
-	  background-color: #FB000A;    /* Red */
+    display: flex;
+      height: 100%;
+      /*background-color: black;*/
+      background-color: #FB000A;    /* Red */
 }
