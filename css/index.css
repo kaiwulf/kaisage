@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.menu {
+	display: flex;
+	  height: 100px;
+	  background-color: #B2D6FF;    /* Medium blue */
+}
+
+.sidebar {
+	display: flex;
+
+	background-image: url("../img/background.gif");
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+
+	float: left;
+	width: 250px;
+	height: 100%;
+	/*background-color: #F5CF8E; */   /* Yellow */
+}
+
+.content {
+	display: flex;
+	  height: 100%;
+	  /*background-color: black;*/
+	  background-color: #FB000A;    /* Red */
+}
