@@ -1,23 +1,19 @@
 <html>
 	<head>
+		<title>Kai Sage</title>
 		<link href="css/index.css" rel="stylesheet" type="text/css" />
-		<script src="js/index.js"></script>
+		<script src="js/dropdown.js"></script>
 	</head>
 	<body>
 		<div class="page">
 			<div class="header">
-				<div class="menu">
-					<li>
-					    <lu>
-					        Resume
-					    </lu>
-					    <lu>
-					        Work
-					    </lu>
-					    <lu>
-					        Essays
-					    </lu>
-					</li>
+				<div class="dropdown">
+					<button onclick="dropdown()" class="dropbtn">More</button>
+					<div id="drop" id="dropdown-content">
+						<a href="resume.html">Resume</a>
+					    <a href="work.html">Work</a>
+					    <a href="essays.html">Essays</a>
+					</div>
 				</div>
 			</div>
 			<div class="sidebar">
