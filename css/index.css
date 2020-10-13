@@ -4,15 +4,14 @@
 	box-sizing: border-box;
 }
 
-.page {
-
+html, body, .page, .base {
+    height: 100%;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    background-color: #B2D6FF;    /* Medium blue */
+.menu {
+	display: flex;
+	  height: 100px;
+	  background-color: #B2D6FF;    /* Medium blue */
 }
 
 .dropdown {
@@ -64,25 +63,28 @@
     background-color: #2980B9;
 }
 
-
 .sidebar {
 	display: flex;
+
+	background-image: url("../img/background.gif");
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+
 	float: left;
 	width: 250px;
-	flex: 1;
+	height: 100%;
 	/*background-color: #F5CF8E; */   /* Yellow */
 }
 
 .content {
-    /* flex-flow: column; */
     display: flex;
-    background-color: #FB000A;    /* Red */
-    height: fill;
-}
-
-.cnt {
-    padding: 20px;
-    color: cyan;
+      height: 100%;
+      /*background-color: black;*/
+      background-color: #FB000A;    /* Red */
 }
 
 .inner-content {
