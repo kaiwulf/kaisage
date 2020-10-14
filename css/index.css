@@ -4,25 +4,26 @@
 	box-sizing: border-box;
 }
 
-html, body, .page, .base {
+html, body, .base {
     height: 100%;
 }
 
 .page {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
     justify-content: center;
 }
 
 .header {
-    flex-grow: 1;
-}
-
-.header-right {
     display: flex;
     float: right;
     background-color: blue;
-    flex-grow: 1;
-    width: 95.84%;
-    height: 100%;
+    /*flex-grow: 1;
+    height: 100%;*/
 }
 
 .dropdown {
