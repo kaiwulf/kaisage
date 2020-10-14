@@ -8,10 +8,21 @@ html, body, .page, .base {
     height: 100%;
 }
 
-.menu {
-	display: flex;
-	  height: 100px;
-	  background-color: #B2D6FF;    /* Medium blue */
+.page {
+    justify-content: center;
+}
+
+.header {
+    flex-grow: 1;
+}
+
+.header-right {
+    display: flex;
+    float: right;
+    background-color: blue;
+    flex-grow: 1;
+    width: 95.84%;
+    height: 100%;
 }
 
 .dropdown {
