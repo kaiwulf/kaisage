@@ -96,17 +96,31 @@ html, body, .base {
     background-repeat: repeat-y;
     background-size: cover;
 
+    padding: 40px 40px 40px 40px;
+
 	float: left;
-	width: 250px;
+	width: 200px;
 	height: 100%;
-	/*background-color: #F5CF8E; */   /* Yellow */
+	text-align: center;
+}
+
+.inner-sidebar {
+    display: flex;
+    /*display: table-cell;*/
+    justify-content: space-between;
+    /*align-items: stretch;*/
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-sidebar > div {
+    display: flex;
 }
 
 .content {
     display: flex;
-      height: 100%;
-      /*background-color: black;*/
-      background-color: #FB000A;    /* Red */
+    height: 100%;
+    background-color: #FB000A;    /* Red */
 }
 
 .inner-content {
